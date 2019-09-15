@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jonchki-artifact version="1.0">
+	<info group="com.github.moteus"
+	      module="lua-lluv-websocket"
+	      artifact="lua-lluv-websocket"
+	      version="${PROJECT_VERSION}"
+	      vcs-id="${PROJECT_VERSION_VCS}">
+		<license name="MIT"/>
+		<author name="Alexey Melnichuk" url="https://github.com/moteus/lua-lluv-websocket" />
+		<description>
+			Websocket for lluv library
+		</description>
+	</info>
+	<dependencies>
+		<dependency group="com.github.moteus" module="lua-lluv" artifact="lua5.4-lua-lluv" version="0.1"/>
+	</dependencies>
+	<dependencies>
+		<dependency group="com.github.moteus" module="lua-lluv" artifact="lua5.1-lua-lluv" version="0.1"/>
+	</dependencies>
+</jonchki-artifact>
