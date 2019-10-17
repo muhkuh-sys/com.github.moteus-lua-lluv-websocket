@@ -62,10 +62,10 @@ tArcList = atEnv.DEFAULT.ArchiveList('zip')
 tArcList.AddFiles('',
                     'installer/install.lua')
 
-tArcList.AddFiles('lua/',
+tArcList.AddFiles('lua/lluv',
                   os.path.join(strDepackPath, 'src', 'lluv', 'websocket.lua'))
 
-tArcList.AddFiles('lua/websocket/',
+tArcList.AddFiles('lua/lluv/websocket/',
                   os.path.join(strDepackPath, 'src', 'lluv', 'websocket', 'utf8.lua'),
                   os.path.join(strDepackPath, 'src', 'lluv', 'websocket', 'bit.lua'),
                   os.path.join(strDepackPath, 'src', 'lluv', 'websocket', 'tools.lua'),
