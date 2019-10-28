@@ -16,5 +16,6 @@
 	</dependencies>
 	<dependencies>
 		<dependency group="com.github.moteus" module="lua-lluv" artifact="lua5.1-lua-lluv" version="0.1"/>
+		<dependency group="org.luajit" module="bitop" artifact="lua5.1-bitop" version="1.0"/>
 	</dependencies>
 </jonchki-artifact>
